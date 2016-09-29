@@ -1,0 +1,38 @@
+package com.ourchar;
+
+import com.interfaces.Jedi;
+import com.parents.Elf;
+
+public class Elfjedi extends Elf implements Jedi {
+	
+	
+
+	public Elfjedi() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Elfjedi(int health, int magic, String name) {
+		super(health, magic, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void changeHealth() {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public void changeMagic() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void weaponType() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}
